@@ -10,7 +10,6 @@ EXPOSE 8000
 #ENV PYTHONUNBUFFERED 1
 
 RUN pip install -r /temp/requariments.txt
-RUN pip install --upgrade pip
 
 #RUN apt upgrade && apt -qy install gcc libjpeg-dev libxslt-dev \
 #    libpq-dev libmariadb-dev libmariadb-dev-compat gettext cron openssh flake8 locales vim \
